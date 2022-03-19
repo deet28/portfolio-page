@@ -1,15 +1,20 @@
 import React from 'react'
-import { useEffect } from 'react';
 import burgerIcon from '../media/burger.png';
-import personIcon from '../media/person.png'
+import personIcon from '../media/person.png';
+import portfolioIcon from '../media/portfolio.png';
+import contactIcon from '../media/contact.png';
 
 export default function Nav() {
 
   function showModal(){
     const navModal = document.querySelector(".Nav-Burger-Modal");
-    const nav = document.querySelector(".Nav-Main");
+    //const nav = document.querySelector(".Nav-Main");
+    const about = document.querySelector(".About-Main")
+    const header = document.querySelector(".Header-Main");
     navModal.classList.add('Show-Modal');
-    nav.classList.add('Modal-Open');
+    //nav.classList.add('Modal-Open');
+    header.classList.add('Modal-Open');
+    about.classList.add('Modal-Open');
   }
   
   function hideModal(e){
@@ -18,6 +23,8 @@ export default function Nav() {
     } else {
     const navModal = document.querySelector(".Nav-Burger-Modal");
     const nav = document.querySelector(".Nav-Main");
+    const header = document.querySelector(".Header-Main");
+    const about = document.querySelector(".About-Main")
     e.preventDefault();
     if (e.target.classList.contains('Nav-Burger-Modal')==false &&
         e.target.classList.contains('Modal-Button-Form')==false
@@ -26,9 +33,11 @@ export default function Nav() {
        
         navModal.classList.remove('Show-Modal');
         nav.classList.remove('Modal-Open');
-    } else {
-      console.log('hey');
-    }
+        header.classList.remove('Modal-Open');
+        about.classList.remove('Modal-Open');
+      } else {
+      return;
+      }
     }
   }
 
@@ -38,6 +47,7 @@ export default function Nav() {
       window.removeEventListener('click', hideModal);
     };
   },[]);
+  
   return (
   <>
     <div className = "Nav-Main">
@@ -57,6 +67,14 @@ export default function Nav() {
         <form className = "Modal-Button-Form">
           <img className = "Modal-Button-Image"src = {personIcon}></img>
           <button className = "Modal-Button">About</button>
+        </form>
+        <form className = "Modal-Button-Form">
+          <img className = "Modal-Button-Image"src = {portfolioIcon}></img>
+          <button className = "Modal-Button">Portfolio</button>
+        </form>
+        <form className = "Modal-Button-Form">
+          <img className = "Modal-Button-Image"src = {contactIcon}></img>
+          <button className = "Modal-Button">Contact</button>
         </form>
         </div>
       </div>

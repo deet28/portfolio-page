@@ -1,0 +1,70 @@
+.About-Main{
+  background-color: white;
+  color:black;
+  min-height:30vh;
+  width:90%;
+  margin-top:7rem;
+  margin-bottom:2rem;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.About-Header{
+  text-align: left;
+  max-width:100%;
+  margin-left:1rem;
+  margin-right:1rem;
+  margin-bottom:2rem;
+  border-bottom:1px solid lightgray;
+}
+
+.About-Personal-Main{
+}
+
+.About-Info-Main{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.About-Header-Sub{
+  text-align:left;
+  margin-left:1rem;
+  margin-top:1rem;
+  color: rgb(0, 162, 255);
+  text-decoration: underline;
+}
+
+.About-Text{
+  text-align: left;
+  line-height:1.9rem;
+  font-size: 1.2rem;
+  margin-top:1rem;
+  margin-left:1rem;
+}
+
+.About-Skills-Main{
+  border-left:1px solid lightgray;
+}
+
+.About-Skills-Header{
+  text-align: left;
+  margin-left:1rem;
+  color: rgb(0, 162, 255);
+  text-decoration: underline;
+}
+
+.About-Skills-Main-List{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1.3rem;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  margin-right:1rem;
+  grid-gap:4rem;
+}
+
+
+@media screen and (max-width:800px){
+  .About-Info-Main{
+    grid-template-columns: 1fr;
+  }
+}
