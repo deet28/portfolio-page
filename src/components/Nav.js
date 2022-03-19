@@ -8,13 +8,14 @@ export default function Nav() {
 
   function showModal(){
     const navModal = document.querySelector(".Nav-Burger-Modal");
-    //const nav = document.querySelector(".Nav-Main");
     const about = document.querySelector(".About-Main")
     const header = document.querySelector(".Header-Main");
+    const portfolio = document.querySelector(".Portfolio-Main");
     navModal.classList.add('Show-Modal');
-    //nav.classList.add('Modal-Open');
     header.classList.add('Modal-Open');
     about.classList.add('Modal-Open');
+    portfolio.classList.add('Modal-Open');
+    document.body.style.overflow = 'hidden';
   }
   
   function hideModal(e){
@@ -22,19 +23,19 @@ export default function Nav() {
       return showModal();
     } else {
     const navModal = document.querySelector(".Nav-Burger-Modal");
-    const nav = document.querySelector(".Nav-Main");
     const header = document.querySelector(".Header-Main");
-    const about = document.querySelector(".About-Main")
+    const about = document.querySelector(".About-Main");
+    const portfolio = document.querySelector(".Portfolio-Main");
     e.preventDefault();
     if (e.target.classList.contains('Nav-Burger-Modal')==false &&
         e.target.classList.contains('Modal-Button-Form')==false
         &&e.target.classList.contains('Modal-Button-Image')==false
         &&e.target.classList.contains('Modal-Button')==false){
-       
         navModal.classList.remove('Show-Modal');
-        nav.classList.remove('Modal-Open');
         header.classList.remove('Modal-Open');
         about.classList.remove('Modal-Open');
+        portfolio.classList.remove('Modal-Open');
+        document.body.style.overflow = 'auto';
       } else {
       return;
       }

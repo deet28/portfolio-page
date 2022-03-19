@@ -7,8 +7,103 @@
   margin-top:5rem;
   background-color: white;
   margin-bottom:5rem;
+  border-radius: 10px;
 }
 
-.Portfolio-Header{
+.Project-Header{
   text-decoration: underline;
+  font-weight: bolder;
+}
+
+.Portfolio-Project-Main{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.Portfolio-Project{
+  min-height:10rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom:3rem;
+}
+
+.Project-Card{
+  min-width:23rem;
+  max-width:23rem;
+  min-height:20rem;
+  
+  color:white;
+}
+
+.Waldo{
+  background-color:#23a6d5;
+}
+
+.Readit{
+  background-color: #ee7752;
+}
+
+.Project-Image{
+  min-height:8rem;
+  max-height:8rem;
+  min-width:8rem;
+  max-width:10rem;
+}
+.Project-Description{
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  font-weight: 700;
+  margin-left:0.5rem;
+}
+.Project-Skills-Used{
+  display:grid;
+  grid-template-columns: 1fr;
+  justify-items: left;
+  border-top:1px solid lightgray
+}
+.Project-Skills{
+  margin-top:0.5rem;
+  margin-left:1rem;
+  margin-bottom:0.5rem;
+}
+
+.Project-Link-Section{
+  margin-top:2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.Project-Link{
+  height:2rem;
+  width:7rem;
+  color:white;
+  border:none;
+  border-radius:5px;
+  font-size:1rem;
+  font-weight:bold;
+}
+
+.Project-Link:hover{
+  cursor:pointer;
+}
+
+.Waldo-Button{
+  background:#e73c7e;
+}
+.Waldo-Button:hover{
+  background:#af476f;
+}
+
+.Readit-Button{
+  background:rgb(43, 42, 42)
+}
+.Readit-Button:hover{
+  background:rgb(83, 83, 83)
+}
+
+@media screen and (max-width:800px){
+  .Portfolio-Project-Main{
+    grid-template-columns: 1fr;
+  }
 }
