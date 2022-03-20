@@ -66,10 +66,20 @@
   transition:1s all;
 }
 
-.Readit-Image:hover{
-  transform: rotateY(180deg);
+.Readit-Image{
   transition:1s;
-  transform-style:preserve-3d
+}
+
+.Readit-Image:hover{
+  /*transform: rotateY(180deg);*/
+  /*transform:translate3d(10px, -10px, -100px);*/
+  transform: rotateZ(180deg)translate(100%);
+  transition:1s ease-out;
+}
+
+.Test{
+  transform: translateX(-30%);
+  transition:1s;
 }
 
 .Shop-Image{

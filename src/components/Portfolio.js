@@ -1,9 +1,12 @@
 import React from 'react'
+import { useState, useEffect} from 'react';
 import waldo from '../media/waldo.png'
 import reddit from '../media/reddit.png'
 import shop from '../media/shop.png'
 
 export default function Portfolio() {
+
+  const [fun,setFun] = useState([]);
 
   function openSite(e){
     if (e.target.classList.contains('Waldo1')==true){
@@ -17,6 +20,20 @@ export default function Portfolio() {
     }
     
   }
+
+  function forFun(){
+    const header = document.querySelector('.Readit-Header');
+    setTimeout(()=>{
+      header.classList.add('Test');
+    },200)
+    setFun('Hello');
+  }
+
+  useEffect(()=>{
+    console.log(fun);
+  },[fun])
+
+
 
   return (
   <>
@@ -52,8 +69,8 @@ export default function Portfolio() {
 
         <div className = "Portfolio-Project Readit-Card">
           <div className = "Project-Card Readit">
-          <img className = "Project-Image Readit-Image" src = {reddit}></img>
-          <h2 className = "Project-Header">Readit</h2> 
+          <img className = "Project-Image Readit-Image" onMouseOver= {forFun}src = {reddit}></img>
+          <h2 className = "Project-Header Readit-Header">Readit</h2> 
           <p className = "Project-Description">
             A "Reddit" clone that allows users to sign up,
             log in, post, add comments, and like or dislike content.
