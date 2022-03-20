@@ -2,6 +2,7 @@
   background-color: white;
   color:black;
   min-height:30vh;
+  max-height: fit-content;
   width:90%;
   margin-top:7rem;
   margin-bottom:2rem;
@@ -17,8 +18,6 @@
   border-bottom:1px solid lightgray;
 }
 
-.About-Personal-Main{
-}
 
 .About-Info-Main{
   display:grid;
@@ -61,6 +60,27 @@
   grid-gap:4rem;
 }
 
+@media screen and (max-width:500px){
+  .About-Header{
+    margin-left:0;
+  }
+  .About-Header-Sub{
+    margin-left:0;
+  }
+  .About-Text{
+    text-align: left;
+    line-height:1.9rem;
+    font-size: 1rem;
+    margin-top:1rem;
+    margin-left:0;
+    max-width:100%;
+  }
+  .About-Skills-Main-List{
+    font-size: 1rem;
+    max-width: 95%;
+    grid-gap:2rem;
+  }
+}
 
 @media screen and (max-width:800px){
   .About-Info-Main{

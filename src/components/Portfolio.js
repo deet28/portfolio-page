@@ -1,15 +1,20 @@
 import React from 'react'
+import { useRef } from 'react'
 import waldo from '../media/waldo.png';
 import reddit from '../media/reddit.png'
 
 export default function Portfolio() {
 
+  const portfolioSection = useRef(null)
   function openSite(){
     const waldoSite = "https://find-waldo-2e955.web.app/Home";
     window.open(waldoSite);
   }
 
   return (
+  <>
+  <div className = "Anchor-Tag-Section"id = "Portfolio-Anchor">
+  </div>
     <div className = "Portfolio-Main">
       <h1 className = "Portfolio-Header">Portfolio</h1>
       <div className = "Portfolio-Project-Main">
@@ -63,5 +68,6 @@ export default function Portfolio() {
 
       </div>
     </div>
+  </>
   )
 }

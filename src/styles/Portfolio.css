@@ -32,8 +32,8 @@
   min-width:23rem;
   max-width:23rem;
   min-height:20rem;
-  
   color:white;
+  border: 1px solid orange;
 }
 
 .Waldo{
@@ -102,8 +102,42 @@
   background:rgb(83, 83, 83)
 }
 
+@media screen and (max-width:350px){
+  .Project-Card{
+    min-width:17rem;
+    max-width:17rem;
+    max-height: fit-content;
+    color:white;
+    border: 1px solid orange;
+  }
+}
+
+@media screen and (min-width:350px) and (max-width:500px){
+  .Project-Card{
+    min-width:18rem;
+    max-width:18rem;
+    max-height: fit-content;
+    color:white;
+    border: 1px solid orange;
+  }
+}
+
+@media screen and (min-width:500px) and (max-width:800px){
+  .Project-Card{
+    min-width:26rem;
+    max-width:26rem;
+  }
+}
+
 @media screen and (max-width:800px){
   .Portfolio-Project-Main{
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width:800px){
+  .Project-Card{
+    min-width: 22rem;
+    max-width: 22rem;
   }
 }

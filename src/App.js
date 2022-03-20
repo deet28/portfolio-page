@@ -11,7 +11,7 @@ function App() {
       <div className = "Main-App">
       <Header />
       <About />
-      <Portfolio />
+      <Portfolio/>
       </div>
     </div>
   );

@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function About() {
   return (
+    <>
+    <div className = "Anchor-Tag-Section"id = "About-Anchor"></div>
     <div className = "About-Main">
       <h1 className = "About-Header">About</h1>
       
@@ -29,5 +31,6 @@ export default function About() {
         
       </div>
     </div>
+    </>
   )
 }
