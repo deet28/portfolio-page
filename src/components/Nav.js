@@ -59,12 +59,15 @@ export default function Nav() {
   function scrollSection(e){
     e.preventDefault();
       const portfolio = document.getElementById('Portfolio-Anchor');
-      const about = document.getElementById('About-Anchor')
+      const about = document.getElementById('About-Anchor');
+      const contact = document.getElementById('Contact-Anchor');
       hideAfterClick();
       if (e.target.id == 'Portfolio1'){
         portfolio.scrollIntoView({ behavior: 'smooth' })
       } else if (e.target.id == 'About1'){
         about.scrollIntoView({ behavior:'smooth'})
+      } else if (e.target.id == 'Contact1'){
+        contact.scrollIntoView({ behavior:'smooth'})
       }
   }
 
@@ -90,7 +93,7 @@ export default function Nav() {
         <img className = "Nav-UL-Burger" src = {burgerIcon} onClick = {showModal}></img>
         <li className = "Nav-UL-Button" id = "About1" onClick = {scrollSection}>About</li>
         <li className = "Nav-UL-Button" id = "Portfolio1" onClick = {scrollSection}>Portfolio</li>
-        <li className = "Nav-UL-Button">Contact</li>
+        <li className = "Nav-UL-Button" id = "Contact1" onClick = {scrollSection}>Contact</li>
       </ul>
     </div>
       
@@ -101,13 +104,13 @@ export default function Nav() {
           <img className = "Modal-Button-Image"src = {personIcon} id = "About1" ></img>
           <button className = "Modal-Button" id = "About1">About</button>
         </form>
-        <form onClick = {scrollSection} className = "Modal-Button-Form" id = "Portfolio1">
+        <form className = "Modal-Button-Form" id = "Portfolio1"onClick = {scrollSection} >
           <img className = "Modal-Button-Image"src = {portfolioIcon} id = "Portfolio1"></img>
           <button className = "Modal-Button" id = "Portfolio1">Portfolio</button>
         </form>
-        <form className = "Modal-Button-Form">
-          <img className = "Modal-Button-Image"src = {contactIcon}></img>
-          <button className = "Modal-Button">Contact</button>
+        <form className = "Modal-Button-Form" id = "Contact1" onClick = {scrollSection} >
+          <img className = "Modal-Button-Image"src = {contactIcon} id = "Contact1"></img>
+          <button className = "Modal-Button" id = "Contact1">Contact</button>
         </form>
         </div>
       </div>
