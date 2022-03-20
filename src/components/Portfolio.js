@@ -21,7 +21,7 @@ export default function Portfolio() {
         
         <div className = "Portfolio-Project">
           <div className = "Project-Card Waldo">
-          <img className = "Project-Image" src = {waldo}></img>
+          <img className = "Project-Image Waldo-Image" src = {waldo}></img>
           <h2 className = "Project-Header">Where's Waldo?</h2> 
           <p className = "Project-Description">
             An image search project that has the user
@@ -45,7 +45,7 @@ export default function Portfolio() {
 
         <div className = "Portfolio-Project">
           <div className = "Project-Card Readit">
-          <img className = "Project-Image" src = {reddit}></img>
+          <img className = "Project-Image Readit-Image" src = {reddit}></img>
           <h2 className = "Project-Header">Readit</h2> 
           <p className = "Project-Description">
             A "Reddit" clone that allows users to sign up,

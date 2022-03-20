@@ -49,6 +49,22 @@
   max-height:8rem;
   min-width:8rem;
   max-width:10rem;
+  
+}
+
+.Waldo-Image{
+  transition:1s;
+}
+
+.Waldo-Image:hover{
+  transform:rotateZ(180deg);
+  transition:1s all;
+}
+
+.Readit-Image:hover{
+  transform: rotateY(180deg);
+  transition:1s;
+  transform-style:preserve-3d
 }
 .Project-Description{
   text-align: left;
