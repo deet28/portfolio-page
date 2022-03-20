@@ -88,8 +88,8 @@ export default function Portfolio() {
             <span className = "Project-Skills">React/Redux</span>
           </p>
           <p className = "Project-Link-Section">
-            <button className = "Project-Link Readit-Button Shop1" onClick = {openSite}>Live Preview</button>
-            <button className = "Project-Link Readit-Button Shop2" onClick = {openSite}>View Code</button>
+            <button className = "Project-Link Shop-Button Shop1" onClick = {openSite}>Live Preview</button>
+            <button className = "Project-Link Shop-Button Shop2" onClick = {openSite}>View Code</button>
           </p>
           </div>
         </div>

@@ -132,6 +132,14 @@
   background:rgb(83, 83, 83)
 }
 
+.Shop-Button{
+  background: #23a6d5;
+}
+
+.Shop-Button:hover{
+  background: #228eb6;
+}
+
 @media screen and (max-width:350px){
   .Project-Card{
     min-width:17rem;
