@@ -1,11 +1,9 @@
 import React from 'react'
-import { useRef } from 'react'
 import waldo from '../media/waldo.png';
 import reddit from '../media/reddit.png'
 
 export default function Portfolio() {
 
-  const portfolioSection = useRef(null)
   function openSite(){
     const waldoSite = "https://find-waldo-2e955.web.app/Home";
     window.open(waldoSite);
@@ -26,7 +24,7 @@ export default function Portfolio() {
           <p className = "Project-Description">
             An image search project that has the user
             locate and click on Waldo. Each attempt is
-            timed, and user's can post their times to a 
+            timed, and users can post their times to a 
             leaderboard. The data for this leaderboard is 
             stored and accessed through Firebase. 
           </p>
