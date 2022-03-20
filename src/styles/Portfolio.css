@@ -18,8 +18,8 @@
 .Portfolio-Project-Main{
   display:grid;
   grid-template-columns: 1fr 1fr;
-
 }
+
 
 .Portfolio-Project{
   min-height:10rem;
@@ -34,6 +34,7 @@
   min-height:20rem;
   color:white;
   border: 1px solid orange;
+  border-radius: 5px;
 }
 
 .Waldo{
@@ -42,6 +43,10 @@
 
 .Readit{
   background-color: #ee7752;
+}
+
+.Shopping-Cart{
+  background-color: #23d5ab;
 }
 
 .Project-Image{
@@ -64,6 +69,15 @@
 .Readit-Image:hover{
   transform: rotateY(180deg);
   transition:1s;
+  transform-style:preserve-3d
+}
+
+.Shop-Image{
+  transition:2s;
+}
+.Shop-Image:hover{
+  transform:translateX(82%);
+  transition:2s;
   transform-style:preserve-3d
 }
 .Project-Description{
@@ -128,20 +142,20 @@
   }
 }
 
-@media screen and (min-width:350px) and (max-width:500px){
+@media screen and (min-width:350px) and (max-width:520px){
   .Project-Card{
-    min-width:18rem;
-    max-width:18rem;
+    min-width:20rem;
+    max-width:20rem;
     max-height: fit-content;
     color:white;
     border: 1px solid orange;
   }
 }
 
-@media screen and (min-width:500px) and (max-width:800px){
+@media screen and (min-width:520px) and (max-width:710px){
   .Project-Card{
-    min-width:26rem;
-    max-width:26rem;
+    min-width:30rem;
+    max-width:30rem;
   }
 }
 
@@ -150,10 +164,27 @@
     grid-template-columns: 1fr;
   }
 }
+@media screen and (min-width:710px) and (max-width:1050px){
+ .Portfolio-Project-Main{
+   grid-template-columns: 1fr;
+ }
+ .Project-Card{
+  min-width: 40rem;
+  max-width: 40rem;
+}
+.Shop-Card{
+  
+}
+}
 
-@media screen and (min-width:800px){
+@media screen and (min-width:1050px){
   .Project-Card{
-    min-width: 22rem;
-    max-width: 22rem;
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+  .Shop-Card{
+    min-width:30rem;
+    max-width: 30rem;
+    margin-left:100%;
   }
 }
