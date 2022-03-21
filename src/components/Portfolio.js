@@ -73,9 +73,9 @@ export default function Portfolio() {
           <h2 className = "Project-Header Readit-Header">Readit</h2> 
           <p className = "Project-Description">
             A "Reddit" clone that allows users to sign up,
-            log in, post, add comments, and like or dislike content.
-            User authentication is implemented using firebase auth. 
-            Posts and comments are stored and accessed via firestore.  
+            log in, post, comment, and like or dislike content.
+            Authentication is implemented using firebase auth. 
+            Data is stored and accessed via firestore.  
           </p>
           <p className = "Project-Skills-Used">
             <span className = "Project-Skills">HTML/CSS</span>
