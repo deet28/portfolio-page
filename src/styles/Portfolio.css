@@ -71,8 +71,6 @@
 }
 
 .Readit-Image:hover{
-  /*transform: rotateY(180deg);*/
-  /*transform:translate3d(10px, -10px, -100px);*/
   transform: rotateZ(180deg)translate(100%);
   transition:1s ease-out;
 }

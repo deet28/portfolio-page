@@ -44,3 +44,18 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+@media screen and (max-width:350px){
+  .Contact-Main{
+    font-size:0.8rem;
+  }
+  .Contact-Info{
+    font-size: 0.8rem;
+  }
+  .Contact-Bottom-Text{
+    font-size:0.7rem;
+  }
+  .Source-Code-Link{
+    font-size:0.7rem;
+  }
+}

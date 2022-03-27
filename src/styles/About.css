@@ -41,6 +41,7 @@
 
 .About-Skills-Main{
   border-left:1px solid lightgray;
+  margin-top:1.2rem;
 }
 
 .About-Skills-Header{
@@ -57,7 +58,22 @@
   margin-top:1rem;
   margin-bottom:2rem;
   margin-right:1rem;
-  grid-gap:4rem;
+  grid-gap:3rem;
+}
+
+.Project-Skills-Div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Project-Skills-Image{
+  height:3rem;
+  width:3.3rem;
+}
+
+.Project-Skills-Text{
+  font-size:1.2rem;
 }
 
 @media screen and (max-width:500px){
