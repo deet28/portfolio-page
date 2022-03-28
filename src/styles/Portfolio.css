@@ -148,6 +148,7 @@
   background: #228eb6;
 }
 
+
 @media screen and (max-width:350px){
   .Project-Card{
     min-width:17rem;
@@ -155,6 +156,9 @@
     max-height: fit-content;
     color:white;
     border: 1px solid orange;
+  }
+  .Project-Link{
+    font-size:0.8rem;
   }
 }
 
@@ -165,6 +169,9 @@
     max-height: fit-content;
     color:white;
     border: 1px solid orange;
+  }
+  .Project-Link{
+    font-size:0.8rem;
   }
 }
 
@@ -178,6 +185,9 @@
 @media screen and (max-width:800px){
   .Portfolio-Project-Main{
     grid-template-columns: 1fr;
+  }
+  .Project-Image{
+    pointer-events:none;
   }
 }
 @media screen and (min-width:710px) and (max-width:1050px){

@@ -1,62 +1,62 @@
-.Nav-Burger-Modal-Main{
-  width:100%;
-  display:flex;
+.Nav-Burger-Modal-Main {
+  width: 100%;
+  display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
-.Nav-Burger-Modal{
-  position:fixed;
-  right:-100%;
-  top:0;
-  height:100vh;
-  background:lightgray;
-  width:50%;
-  margin-right:0rem;
-  transition:1s;
-  z-index:3;
+.Nav-Burger-Modal {
+  position: fixed;
+  right: -100%;
+  top: 0;
+  height: 100vh;
+  background: lightgray;
+  width: 50%;
+  margin-right: 0rem;
+  transition: 1s;
+  z-index: 3;
 }
 
-.Show-Modal{
+.Show-Modal {
   z-index: 2;
   transform-origin: 100% 60%;
-  transform:translateX(-200%);
-  transition:1s;
+  transform: translateX(-200%);
+  transition: 1s;
   overflow-y: hidden;
-  height:100vh;
-  opacity:1 !important;
+  height: 100vh;
+  opacity: 1 !important;
 }
 
-.Modal-Open{
-  opacity:0.4;
+.Modal-Open {
+  opacity: 0.4;
   pointer-events: none;
 }
 
-.Modal-Button-Form{
-  width:100%;
+.Modal-Button-Form {
+  width: 100%;
   background-color: lightgray;
-  margin-top:2rem;
-  height:3rem;
-  display:flex;
+  margin-top: 2rem;
+  height: 3rem;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border:transparent;
+  border: transparent;
 }
-.Modal-Button{
-  width:60%;
-  height:100%;
-  border-radius:5px;
-  border:transparent;
+.Modal-Button {
+  width: 60%;
+  height: 100%;
+  border-radius: 5px;
+  border: transparent;
   background-color: transparent;
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
-.Modal-Button-Form:hover{
-  cursor:pointer;
-  filter:invert(100%);
+.Modal-Button-Form:hover {
+  cursor: pointer;
+  filter: invert(100%);
 }
-.Modal-Button:hover{
+.Modal-Button:hover {
   cursor: pointer;
 }
 
@@ -66,8 +66,9 @@ Modal Background Fun
 
 */
 
-
-@media screen and (min-width:700px){
-  .Nav-Burger-Modal{
+@media screen and (max-width: 700px) {
+  .Modal-Button-Image {
+    max-height: 10rem;
+    max-width: 10rem;
   }
 }
