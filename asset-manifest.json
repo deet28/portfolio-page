@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio-page/static/css/main.ed6ada35.css",
+    "main.js": "/portfolio-page/static/js/main.648ff516.js",
+    "static/media/profilePic.jpg": "/portfolio-page/static/media/profilePic.c3c9389c52396d15942e.jpg",
+    "static/media/firebase.png": "/portfolio-page/static/media/firebase.6f1a1b336c5d7f5b6a79.png",
+    "static/media/redux.png": "/portfolio-page/static/media/redux.1b4bb5fceb01b19da59d.png",
+    "static/media/contact.png": "/portfolio-page/static/media/contact.3bb9937a3e9234fcf289.png",
+    "static/media/waldo.png": "/portfolio-page/static/media/waldo.3cffbc03c272eee8f467.png",
+    "static/media/github.png": "/portfolio-page/static/media/github.88c42e191b29a08b8ec6.png",
+    "static/media/shop.png": "/portfolio-page/static/media/shop.c287eb149659cd1735da.png",
+    "static/media/person.png": "/portfolio-page/static/media/person.8201a4d6578a04f8e149.png",
+    "static/media/react.png": "/portfolio-page/static/media/react.f3e576ba08e6be927148.png",
+    "static/media/portfolio.png": "/portfolio-page/static/media/portfolio.73be5c7342c79fa6bc36.png",
+    "static/media/linked.png": "/portfolio-page/static/media/linked.dee31da8e306dbdc1aba.png",
+    "static/media/h5.png": "/portfolio-page/static/media/h5.96c285f19c35fd152f75.png",
+    "static/media/c3.png": "/portfolio-page/static/media/c3.df21fb915d38d540ca71.png",
+    "static/media/reddit.png": "/portfolio-page/static/media/reddit.9f0620b63f10055c8f9d.png",
+    "static/media/git.png": "/portfolio-page/static/media/git.8772279c97eb9b4521f7.png",
+    "index.html": "/portfolio-page/index.html",
+    "main.ed6ada35.css.map": "/portfolio-page/static/css/main.ed6ada35.css.map",
+    "main.648ff516.js.map": "/portfolio-page/static/js/main.648ff516.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed6ada35.css",
+    "static/js/main.648ff516.js"
+  ]
+}
