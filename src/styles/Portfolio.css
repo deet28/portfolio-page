@@ -1,216 +1,210 @@
-.Portfolio-Main{
-  display:flex;
+.Portfolio-Main {
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height:20rem;
-  width:95%;
-  margin-top:5rem;
+  min-height: 20rem;
+  width: 95%;
+  margin-top: 5rem;
   background-color: white;
-  margin-bottom:5rem;
+  margin-bottom: 5rem;
   border-radius: 10px;
 }
 
-.Project-Header{
+.Project-Header {
   text-decoration: underline;
   font-weight: bolder;
 }
 
-.Portfolio-Project-Main{
-  display:grid;
+.Portfolio-Project-Main {
+  display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-
-.Portfolio-Project{
-  min-height:10rem;
+.Portfolio-Project {
+  min-height: 10rem;
   display: flex;
   justify-content: center;
-  margin-bottom:3rem;
+  margin-bottom: 3rem;
 }
 
-.Project-Card{
-  min-width:23rem;
-  max-width:23rem;
-  min-height:20rem;
-  color:white;
+.Project-Card {
+  min-width: 23rem;
+  max-width: 23rem;
+  min-height: 20rem;
+  color: white;
   border: 1px solid orange;
   border-radius: 5px;
 }
 
-.Waldo{
-  background-color:#23a6d5;
+.Waldo {
+  background-color: #23a6d5;
 }
 
-.Readit{
+.Readit {
   background-color: #ee7752;
 }
 
-.Shopping-Cart{
+.Shopping-Cart {
   background-color: #23d5ab;
 }
 
-.Project-Image{
-  min-height:8rem;
-  max-height:8rem;
-  min-width:8rem;
-  max-width:10rem;
-  
+.Project-Image {
+  min-height: 8rem;
+  max-height: 8rem;
+  min-width: 8rem;
+  max-width: 10rem;
 }
 
-.Waldo-Image{
-  transition:1s;
+.Waldo-Image {
+  transition: 1s;
 }
 
-.Waldo-Image:hover{
-  transform:rotateZ(180deg);
-  transition:1s all;
+.Waldo-Image:hover {
+  transform: rotateZ(180deg);
+  transition: 1s all;
 }
 
-.Readit-Image{
-  transition:1s;
+.Readit-Image {
+  transition: 1s;
 }
 
-.Readit-Image:hover{
-  transform: rotateZ(180deg)translate(100%);
-  transition:1s ease-out;
+.Readit-Image:hover {
+  transform: rotateZ(180deg) translate(100%);
+  transition: 1s ease-out;
 }
 
-.Test{
+.Test {
   transform: translateX(-40%);
-  transition:1s;
+  transition: 1s;
 }
 
-.Shop-Image{
-  transition:2s;
+.Shop-Image {
+  transition: 2s;
 }
-.Shop-Image:hover{
-  transform:translateX(82%);
-  transition:2s;
-  transform-style:preserve-3d
+.Shop-Image:hover {
+  transform: translateX(82%);
+  transition: 2s;
+  transform-style: preserve-3d;
 }
-.Project-Description{
+.Project-Description {
   text-align: left;
   font-size: 1.1rem;
   line-height: 1.7rem;
   font-weight: 700;
-  margin-left:0.5rem;
+  margin-left: 0.5rem;
 }
-.Project-Skills-Used{
-  display:grid;
+.Project-Skills-Used {
+  display: grid;
   grid-template-columns: 1fr;
   justify-items: left;
-  border-top:1px solid lightgray
+  border-top: 1px solid lightgray;
 }
-.Project-Skills{
-  margin-top:0.5rem;
-  margin-left:1rem;
-  margin-bottom:0.5rem;
+.Project-Skills {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.Project-Link-Section{
-  margin-top:2rem;
+.Project-Link-Section {
+  margin-top: 2rem;
   display: flex;
   justify-content: space-around;
 }
-.Project-Link{
-  height:2rem;
-  width:7rem;
-  color:white;
-  border:none;
-  border-radius:5px;
-  font-size:1rem;
-  font-weight:bold;
+.Project-Link {
+  height: 2rem;
+  width: 7rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-.Project-Link:hover{
-  cursor:pointer;
+.Project-Link:hover {
+  cursor: pointer;
 }
 
-.Waldo-Button{
-  background:#e73c7e;
+.Waldo-Button {
+  background: #e73c7e;
 }
-.Waldo-Button:hover{
-  background:#af476f;
-}
-
-.Readit-Button{
-  background:rgb(43, 42, 42)
-}
-.Readit-Button:hover{
-  background:rgb(83, 83, 83)
+.Waldo-Button:hover {
+  background: #af476f;
 }
 
-.Shop-Button{
+.Readit-Button {
+  background: rgb(43, 42, 42);
+}
+.Readit-Button:hover {
+  background: rgb(83, 83, 83);
+}
+
+.Shop-Button {
   background: #23a6d5;
 }
 
-.Shop-Button:hover{
+.Shop-Button:hover {
   background: #228eb6;
 }
 
-
-@media screen and (max-width:350px){
-  .Project-Card{
-    min-width:17rem;
-    max-width:17rem;
+@media screen and (max-width: 350px) {
+  .Project-Card {
+    min-width: 17rem;
+    max-width: 17rem;
     max-height: fit-content;
-    color:white;
+    color: white;
     border: 1px solid orange;
   }
-  .Project-Link{
-    font-size:0.8rem;
+  .Project-Link {
+    font-size: 0.7rem;
   }
 }
 
-@media screen and (min-width:350px) and (max-width:520px){
-  .Project-Card{
-    min-width:20rem;
-    max-width:20rem;
+@media screen and (min-width: 350px) and (max-width: 520px) {
+  .Project-Card {
+    min-width: 20rem;
+    max-width: 20rem;
     max-height: fit-content;
-    color:white;
+    color: white;
     border: 1px solid orange;
   }
-  .Project-Link{
-    font-size:0.8rem;
+  .Project-Link {
+    font-size: 0.7rem;
   }
 }
 
-@media screen and (min-width:520px) and (max-width:710px){
-  .Project-Card{
-    min-width:30rem;
-    max-width:30rem;
-  }
-}
-
-@media screen and (max-width:800px){
-  .Portfolio-Project-Main{
-    grid-template-columns: 1fr;
-  }
-  .Project-Image{
-    pointer-events:none;
-  }
-}
-@media screen and (min-width:710px) and (max-width:1050px){
- .Portfolio-Project-Main{
-   grid-template-columns: 1fr;
- }
- .Project-Card{
-  min-width: 40rem;
-  max-width: 40rem;
-}
-.Shop-Card{
-  
-}
-}
-
-@media screen and (min-width:1050px){
-  .Project-Card{
+@media screen and (min-width: 520px) and (max-width: 710px) {
+  .Project-Card {
     min-width: 30rem;
     max-width: 30rem;
   }
-  .Shop-Card{
-    min-width:30rem;
+}
+
+@media screen and (max-width: 800px) {
+  .Portfolio-Project-Main {
+    grid-template-columns: 1fr;
+  }
+  .Project-Image {
+    pointer-events: none;
+  }
+}
+@media screen and (min-width: 710px) and (max-width: 1050px) {
+  .Portfolio-Project-Main {
+    grid-template-columns: 1fr;
+  }
+  .Project-Card {
+    min-width: 40rem;
+    max-width: 40rem;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .Project-Card {
+    min-width: 30rem;
     max-width: 30rem;
-    margin-left:100%;
+  }
+  .Shop-Card {
+    min-width: 30rem;
+    max-width: 30rem;
+    margin-left: 100%;
   }
 }

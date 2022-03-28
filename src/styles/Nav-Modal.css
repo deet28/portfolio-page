@@ -68,7 +68,7 @@ Modal Background Fun
 
 @media screen and (max-width: 700px) {
   .Modal-Button-Image {
-    max-height: 10rem;
-    max-width: 10rem;
+    max-height: 10rem !important;
+    max-width: 10rem !important;
   }
 }
