@@ -23,9 +23,9 @@ export default function About() {
               I am a passionate front-end web developer focused on using
               technology to create immersive web experiences. I love creating,
               and I love facilitating creativity in others. I am a Psychology
-              major that is exploring new ways to implement my understanding of
+              major that is exploring new ways to engage with my understanding of
               human perception. I have spent the last several months honing my
-              skills by working on personal projects, feel free to check some of
+              skills by building my own personal projects from scratch, feel free to check some of
               them out below!
             </p>
           </div>

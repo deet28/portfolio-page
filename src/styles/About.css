@@ -31,9 +31,13 @@
   text-decoration: underline;
 }
 
+.About-Personal-Main{
+  margin-top:1rem;
+}
+
 .About-Text{
   text-align: left;
-  line-height:1.9rem;
+  line-height:2.3rem;
   font-size: 1.2rem;
   margin-top:1rem;
   margin-left:1rem;

@@ -14,5 +14,7 @@ export function openSite(e) {
     window.open("https://deet28.github.io/Shopping-Cart/");
   } else if (e.target.classList.contains("Shop2") == true) {
     window.open("https://github.com/deet28/Shopping-Cart");
+  } else if (e.target.classList.contains('Linkedin')){
+    window.open("https://www.linkedin.com/in/davidturchetta/");
   }
 }

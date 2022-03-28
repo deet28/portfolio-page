@@ -27,6 +27,40 @@ export default function Portfolio() {
         <h1 className="Portfolio-Header">Portfolio</h1>
 
         <div className="Portfolio-Project-Main">
+          <div className="Portfolio-Project Readit-Card">
+            <div className="Project-Card Readit">
+              <img
+                className="Project-Image Readit-Image"
+                onMouseOver={forFun}
+                src={reddit}
+              ></img>
+              <h2 className="Project-Header Readit-Header">Readit</h2>
+              <p className="Project-Description">
+                A full stack "Reddit" clone that allows users to sign up, log in, post,
+                comment, and like or dislike content. Authentication is
+                implemented using firebase auth. Data is stored and accessed via
+                firestore.
+              </p>
+              <p className="Project-Skills-Used">
+                <span className="Project-Skills">HTML/CSS</span>
+                <span className="Project-Skills">Javascript</span>
+                <span className="Project-Skills">React/Redux</span>
+                <span className="Project-Skills">Firebase/Firestore</span>
+              </p>
+              <p className="Project-Link-Section">
+                <button
+                  className="Project-Link Readit-Button Readit1"
+                  onClick={openSite}
+                >
+                  Live Preview
+                </button>
+                <button className="Project-Link Readit-Button Readit2">
+                  View Code
+                </button>
+              </p>
+            </div>
+          </div>
+
           <div className="Portfolio-Project Waldo-Card">
             <div className="Project-Card Waldo">
               <img className="Project-Image Waldo-Image" src={waldo}></img>
@@ -54,40 +88,6 @@ export default function Portfolio() {
                   className="Project-Link Waldo-Button Waldo2"
                   onClick={openSite}
                 >
-                  View Code
-                </button>
-              </p>
-            </div>
-          </div>
-
-          <div className="Portfolio-Project Readit-Card">
-            <div className="Project-Card Readit">
-              <img
-                className="Project-Image Readit-Image"
-                onMouseOver={forFun}
-                src={reddit}
-              ></img>
-              <h2 className="Project-Header Readit-Header">Readit</h2>
-              <p className="Project-Description">
-                A "Reddit" clone that allows users to sign up, log in, post,
-                comment, and like or dislike content. Authentication is
-                implemented using firebase auth. Data is stored and accessed via
-                firestore.
-              </p>
-              <p className="Project-Skills-Used">
-                <span className="Project-Skills">HTML/CSS</span>
-                <span className="Project-Skills">Javascript</span>
-                <span className="Project-Skills">React/Redux</span>
-                <span className="Project-Skills">Firebase/Firestore</span>
-              </p>
-              <p className="Project-Link-Section">
-                <button
-                  className="Project-Link Readit-Button Readit1"
-                  onClick={openSite}
-                >
-                  Live Preview
-                </button>
-                <button className="Project-Link Readit-Button Readit2">
                   View Code
                 </button>
               </p>
