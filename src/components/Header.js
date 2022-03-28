@@ -24,10 +24,7 @@ export default function Header() {
       return setTitle('Developer');
     }
   }
-  
-  //
-
-  //dancing picture
+//dancing picture
   useEffect(()=>{
   const profilePicture = document.querySelector(".Header-Profile-Picture");
   setTimeout(() => {

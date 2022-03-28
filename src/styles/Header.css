@@ -42,22 +42,9 @@
 
 
 }
-
-/*.Header-Profile-Picture:hover{
-  transform: rotateY(180deg);
-}*/
-
 .Picture-Movement{
   transform: rotateY(180deg);
 }
-
-.Picture-Movement-Down{
-  
-}
-
-.Picture-Movement-Three{
-}
-
 
 .App-Sub-Title{
   width:80vw;

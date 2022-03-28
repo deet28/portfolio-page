@@ -11,9 +11,12 @@ export default function Contact() {
       <div className="Contact-Main">
         <div className="Contact-Main-Text">
           <h1 className="Contact-Main-Header">Get in touch</h1>
-          <h4 className="Contact-Info">Email:davidturchetta@outlook.com 
+          <h4
+            className="Contact-Info"
+            onClick={() => (window.location = "mailto:davidturchetta@outlook.com")}
+          >
+            Email:davidturchetta@outlook.com
           </h4>
-          <h4 className="Contact-Info">Discord:deet28#4176</h4>
           <h4 className="Contact-Info Linkedin" onClick={openSite}>
             Linkedin:www.linkedin.com/in/davidturchetta
           </h4>
@@ -26,8 +29,3 @@ export default function Contact() {
     </>
   );
 }
-
-
-//<h4 className="Contact-Info" mailto="davidturchetta@outlook.com">
-//  Email:davidturchetta@outlook.com
-//</h4>;

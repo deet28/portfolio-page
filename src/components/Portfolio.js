@@ -17,7 +17,7 @@ export default function Portfolio() {
   }
 
   useEffect(() => {
-    console.log(fun);
+    return fun;
   }, [fun]);
 
   return (
