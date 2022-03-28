@@ -1,5 +1,5 @@
 import React from 'react'
-import { useRef } from 'react'
+import { useEffect } from 'react'
 import burgerIcon from '../media/burger.png';
 import personIcon from '../media/person.png';
 import portfolioIcon from '../media/portfolio.png';
@@ -13,10 +13,12 @@ export default function Nav() {
     const about = document.querySelector(".About-Main")
     const header = document.querySelector(".Header-Main");
     const portfolio = document.querySelector(".Portfolio-Main");
+    const contact = document.querySelector(".Contact-Main");
     navModal.classList.add('Show-Modal');
     header.classList.add('Modal-Open');
     about.classList.add('Modal-Open');
     portfolio.classList.add('Modal-Open');
+    contact.classList.add('Modal-Open');
     document.body.style.overflow = 'hidden';
   }
   
@@ -28,6 +30,7 @@ export default function Nav() {
     const header = document.querySelector(".Header-Main");
     const about = document.querySelector(".About-Main");
     const portfolio = document.querySelector(".Portfolio-Main");
+    const contact = document.querySelector(".Contact-Main");
     e.preventDefault();
     if (e.target.classList.contains('Nav-Burger-Modal')==false &&
         e.target.classList.contains('Modal-Button-Form')==false
@@ -37,6 +40,7 @@ export default function Nav() {
         header.classList.remove('Modal-Open');
         about.classList.remove('Modal-Open');
         portfolio.classList.remove('Modal-Open');
+        contact.classList.remove("Modal-Open");
         document.body.style.overflow = 'auto';
       } else {
       return;
@@ -49,10 +53,12 @@ export default function Nav() {
     const header = document.querySelector(".Header-Main");
     const about = document.querySelector(".About-Main");
     const portfolio = document.querySelector(".Portfolio-Main");
+    const contact = document.querySelector(".Contact-Main");
     navModal.classList.remove('Show-Modal');
     header.classList.remove('Modal-Open');
     about.classList.remove('Modal-Open');
     portfolio.classList.remove('Modal-Open');
+    contact.classList.remove("Modal-Open");
     document.body.style.overflow = 'auto';
   }
 
@@ -71,14 +77,14 @@ export default function Nav() {
       }
   }
 
-  React.useEffect(()=>{
+  useEffect(()=>{
       window.addEventListener("click",hideModal)
       return () => {
       window.removeEventListener('click', hideModal);
     };
   },[]);
 
-  React.useEffect(()=>{
+  useEffect(()=>{
     const portfolio = document.getElementById('#Portfolio-Anchor');
     console.log(portfolio);
   },[])

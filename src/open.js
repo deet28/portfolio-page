@@ -3,7 +3,9 @@ export function openSite(e) {
     window.open("https://github.com/deet28");
   } else if (e.target.id == "Linked") {
     window.open("https://www.linkedin.com/in/davidturchetta/");
-  } else if (e.target.classList.contains("Waldo1") == true) {
+  } else if (e.target.id == "Resume"){
+    window.open("https://my.indeed.com/resume/preview/file");
+  }else if (e.target.classList.contains("Waldo1") == true) {
     window.open("https://find-waldo-2e955.web.app/Home");
   } else if (e.target.classList.contains("Waldo2") == true) {
     window.open("https://github.com/deet28/Wheres-Waldo");
@@ -16,5 +18,5 @@ export function openSite(e) {
     window.open("https://github.com/deet28/Shopping-Cart");
   } else if (e.target.classList.contains('Linkedin')){
     window.open("https://www.linkedin.com/in/davidturchetta/");
-  }
+  } 
 }

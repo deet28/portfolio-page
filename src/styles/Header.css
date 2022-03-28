@@ -39,8 +39,6 @@
   margin-top:-1rem;
   color:black;
   text-decoration: underline;
-
-
 }
 .Picture-Movement{
   transform: rotateY(180deg);
@@ -70,11 +68,23 @@
 }
 
 @media screen and (max-width:370px){
+  .App-Page-Title{
+  font-size:1.6rem;
+  margin-top:0.2rem;
+  margin-bottom:1.5rem;
+}
+.Header-Role-Text{
+  font-size: 1rem;
+}
   .Header-Profile-Picture{
     height:8rem;
     width:8rem;
     margin-top:3rem;
   }
+  .App-Sub-Title{
+  width:80vw;
+  line-height: 1.2rem;
+}
 }
 
 @media screen and (max-width:450px){
