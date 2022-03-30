@@ -13,7 +13,9 @@ export default function Contact() {
           <h1 className="Contact-Main-Header">Get in touch</h1>
           <h4
             className="Contact-Info"
-            onClick={() => (window.location = "mailto:davidturchetta@outlook.com")}
+            onClick={() =>
+              (window.location = "mailto:davidturchetta@outlook.com")
+            }
           >
             Email:davidturchetta@outlook.com
           </h4>
@@ -23,7 +25,9 @@ export default function Contact() {
         </div>
         <div className="Contact-Bottom">
           <h3 className="Contact-Bottom-Text">© David Turchetta 2022</h3>
-          <h3 className="Source-Code-Link">Website Code</h3>
+          <h3 className="Source-Code-Link" onClick={openSite}>
+            Website Code
+          </h3>
         </div>
       </div>
     </>

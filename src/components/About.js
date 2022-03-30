@@ -20,11 +20,10 @@ export default function About() {
           <div className="About-Personal-Main">
             <h2 className="About-Header-Sub">Personal Info</h2>
             <p className="About-Text">
-              I am a passionate front-end web developer focused on using
-              technology to create immersive web experiences. I love creating,
-              and I love facilitating creativity in others. I am a Psychology
-              major that is exploring new ways to engage with my understanding of
-              human perception. I have spent the last several months honing my
+              I am a passionate web developer focused on using
+              technology to build immersive web experiences. I love creating,
+              and I love facilitating creativity in others. I am a psychology
+              major who turned to web development in order to  connect with people in new and inspiring ways. I have spent the last several months honing my
               skills by building my own personal projects from scratch, feel free to check some of
               them out below!
             </p>

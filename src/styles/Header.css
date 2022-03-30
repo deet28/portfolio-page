@@ -1,6 +1,6 @@
-.Header-Main{
+.Header-Main {
   min-height: 100vh;
-  width:100vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,86 +10,87 @@
   line-height: 1.5rem;
 }
 
-.Header-Title-Div{
-  display:flex;
+.Header-Title-Div {
+  display: flex;
   flex-direction: column;
-  width:100vw;
+  width: 100vw;
   justify-content: center;
   align-items: center;
 }
-.App-Page-Title{
-  margin-left:-1.5rem;
+.App-Page-Title {
+  margin-left: -1.5rem;
 }
-.Header-Profile-Picture{
-  height:10rem;
-  width:10rem;
-  border-radius:70px;
-  margin-right:2rem;
-  margin-bottom:3rem;
+.Header-Profile-Picture {
+  height: 11rem;
+  width: 11rem;
+  margin-top:3rem;
+  border-radius: 70px;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
 }
 
-.Header-Titles{
-  display:flex;
+.Header-Titles {
+  display: flex;
   flex-direction: column;
 }
 
-.Header-Role-Text{
+.Header-Role-Text {
   text-align: right;
   font-size: 1.2rem;
-  margin-top:-1rem;
-  color:black;
+  margin-top: -1rem;
+  color: black;
   text-decoration: underline;
 }
-.Picture-Movement{
+.Picture-Movement {
   transform: rotateY(180deg);
 }
 
-.App-Sub-Title{
-  width:80vw;
+.App-Sub-Title {
+  width: 80vw;
   line-height: 2rem;
-  color:rgb(37, 37, 37);
+  color: rgb(37, 37, 37);
 }
 
-.Header-Main-Links{
-  width:50%;
-  display:grid;
+.Header-Main-Links {
+  width: 50%;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top:2rem;
+  margin-top: 2rem;
 }
-.Main-Link-Icon{
-  height:2.8rem;
-  width:2.8rem;
-  border-bottom:1px solid transparent;
+.Main-Link-Icon {
+  height: 2.8rem;
+  width: 2.8rem;
+  border-bottom: 1px solid transparent;
 }
 
-.Main-Link-Icon:hover{
+.Main-Link-Icon:hover {
   cursor: pointer;
-  border-bottom:1px solid black;
+  border-bottom: 1px solid black;
 }
 
-@media screen and (max-width:370px){
-  .App-Page-Title{
-  font-size:1.6rem;
-  margin-top:0.2rem;
-  margin-bottom:1.5rem;
-}
-.Header-Role-Text{
-  font-size: 1rem;
-}
-  .Header-Profile-Picture{
-    height:8rem;
-    width:8rem;
-    margin-top:3rem;
+@media screen and (max-width: 370px) {
+  .App-Page-Title {
+    font-size: 1.6rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1.5rem;
   }
-  .App-Sub-Title{
-  width:80vw;
-  line-height: 1.2rem;
-}
+  .Header-Role-Text {
+    font-size: 1rem;
+  }
+  .Header-Profile-Picture {
+    height: 8rem;
+    width: 8rem;
+    margin-top: 3rem;
+  }
+  .App-Sub-Title {
+    width: 80vw;
+    line-height: 1.2rem;
+  }
 }
 
-@media screen and (max-width:450px){
-  .Main-Link-Icon{
-    height:2rem;
-    width:2rem;
+@media screen and (max-width: 450px) {
+  .Main-Link-Icon {
+    height: 2rem;
+    width: 2rem;
   }
 }
