@@ -36,10 +36,10 @@ export default function Portfolio() {
               ></img>
               <h2 className="Project-Header Readit-Header">Readit</h2>
               <p className="Project-Description">
-                A full stack "Reddit" clone that allows users to sign up, log in, post,
-                comment, and like or dislike content. Authentication is
-                implemented using firebase auth. Data is stored and accessed via
-                firestore.
+                A full stack "Reddit" clone that allows users to sign up, log
+                in, post, comment, and like or dislike content. Authentication
+                is implemented using firebase auth. Data is stored and accessed
+                via firestore.
               </p>
               <p className="Project-Skills-Used">
                 <span className="Project-Skills">HTML/CSS</span>
@@ -54,7 +54,10 @@ export default function Portfolio() {
                 >
                   Live Preview
                 </button>
-                <button className="Project-Link Readit-Button Readit2">
+                <button
+                  className="Project-Link Readit-Button Readit2"
+                  onClick={openSite}
+                >
                   View Code
                 </button>
               </p>

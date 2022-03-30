@@ -12,6 +12,7 @@ export function openSite(e) {
   } else if (e.target.classList.contains("Readit1") == true) {
     window.open("https://readit-10a97.web.app");
   } else if (e.target.classList.contains("Readit2") == true) {
+    window.open("https://github.com/deet28/readit");
   } else if (e.target.classList.contains("Shop1") == true) {
     window.open("https://deet28.github.io/Shopping-Cart/");
   } else if (e.target.classList.contains("Shop2") == true) {
