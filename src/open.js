@@ -4,7 +4,7 @@ export function openSite(e) {
   } else if (e.target.id == "Linked") {
     window.open("https://www.linkedin.com/in/davidturchetta/");
   } else if (e.target.id == "Resume"){
-    window.open("https://1drv.ms/b/s!Agq4Yt0vQFTGgQjoroidLL73k9St?e=pPWdSy");
+    window.open("https://1drv.ms/b/s!Agq4Yt0vQFTGgQjoroidLL73k9St");
   }else if (e.target.classList.contains("Waldo1") == true) {
     window.open("https://find-waldo-2e955.web.app/Home");
   } else if (e.target.classList.contains("Waldo2") == true) {
